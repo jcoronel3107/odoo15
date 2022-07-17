@@ -1,0 +1,77 @@
+.o_company_3_layout {
+                font-family: Lato;
+                &.o_report_layout_standard {
+                    h2 {
+                        color: black;
+                    }
+                    #informations strong {
+                        color: black;
+                    }
+                    #total strong{
+                        color: black;
+                    }
+                    table {
+                        thead {
+                            color: black;
+                        }
+                    }
+                }
+            }
+                .o_company_4_layout {
+                font-family: Lato;
+                &.o_report_layout_standard {
+                    h2 {
+                        color: black;
+                    }
+                    #informations strong {
+                        color: black;
+                    }
+                    #total strong{
+                        color: black;
+                    }
+                    table {
+                        thead {
+                            color: black;
+                        }
+                    }
+                }
+            }
+                .o_company_1_layout {
+                font-family: Lato;
+                &.o_clean_footer {
+                    border-top: 3px solid #174FDE;
+                    h4 {
+                        color: #174FDE;
+                    }
+                    .pagenumber {
+                        border: 3px solid #000000;
+                        background-color: #174FDE;
+                    }
+                }
+                &.o_report_layout_bold {
+                    h1, h2, h3 {
+                        color: #000000;
+                    }
+                    strong {
+                        color: #174FDE;
+                    }
+                    table {
+                       thead {
+                           color: #174FDE;
+                           tr th {
+                                border-top: 3px solid #174FDE !important;
+                            }
+                        }
+                        tbody {
+                            tr:last-child td {
+                                border-bottom: 3px solid #174FDE;
+                            }
+                        }
+                    }
+                    #total {
+                        strong {
+                            color: #174FDE;
+                        }
+                    }
+                }
+            }
